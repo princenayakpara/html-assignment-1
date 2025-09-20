@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+</head>
+<body><hr>
+  <h1>Codinggita Student Registration Form</h1>
+  <p>Please fill out the form below to register for the CodingGita MERN Stack Program.</p>
+
+  <form action="#" method="post">
+    <label for="Full Name">Full Name</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="Email">email</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="Password">Password</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="Mobile Number">Mobile Number</label>
+    <input type="number" id="mobile number" name="mobile number"><br><br>
+
+    <label for="Gender">Gender:</label>
+    <input type="radio" id="Male" name="Gender">
+    <label for="Male">Male</label>
+    <input type="radio" id="Female" name="Gender">
+    <label for="Female">Female</label><br><br>
+    
+    <label for="Hobbies">Hobbies:</label>
+    <input type="checkbox" id="Reading" name="Hobbies">
+    <label for="Coding">Coding</label>
+    <input type="checkbox" id="Coding" name="Hobbies">
+    <label for="Sports">Sports</label>
+    <input type="checkbox" id="Sports" name="Hobbies">
+    <label for="Music">Music</label>
+    <input type="checkbox" id="Music" name="Hobbies">
+    <label for="Reading">Reading</label><br><br>
+
+    <label for="Date">Date:</label>
+    <input type="date" id="date" name="date"><br><br>
+
+    <label for="Upload photo">Upload Photo:</label>
+    <input type="file" id="Upload photo" name="Upload photo"><br><br>
+
+    <label for="Course">Choose a Course:</label>
+    <select id="Course" name="Course">
+      <option value="MERN Stack">MERN Stack</option>
+      <option value="DSA">DSA</option>
+      <option value="Web Development">Web Development</option>
+    </select><br><br>
+
+    <label for="Text">Address :</label>
+    <textarea id="text" name="text" rows="4" cols="30"></textarea><br><br>
+
+    <label for="Preferred Study Hours">Preferred Study Hours:</label>
+    <input type="range" id="Preferred Study Hours" name="Preferred Study Hours" min="1" max="20" value="5" oninput="this.nextElementSibling.value =this.value">
+    <output>5</output>hours per day<br><br>
+
+    <label for="Favorite Color">Favorite Color:</label>
+    <input type="color" id="Favorite Color" name="Favorite Color"><br><br>
+
+    <label for="Portfolio Website">Portfolio Website:</label>
+    <input type="url" id="Portfolio Website" name="Portfolio Website"><br><br>
+
+    <label for="Search Interests">Search Interests:</label>
+    <input type="search" id="Search Interests" name="Search Interests"><br><br>
+
+    <label for="Preferred Study Time">Preferred Study Time:</label>
+    <input type="time" id="Preferred Study Time" name="Preferred Study Time"><br><br>
+
+    <input type="submit">
+    <input type="reset">
+    
+  </form>
+</body>
+</html>
